@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+</head>
+<body>
+    <h1>Buttons</h1>
+    <form action="/results">
+    <h2>checkbox</h2>
+        <input type="checkbox" name="mood" id="checkbox">
+        <label for="checkbox">click if agree</label>
+    <h2>Mood</h2>    
+    <p>
+        <input type="radio" name="me" id="sad" value="sad">
+        <label for="sad">sad</label>
+        <input type="radio" name="me" id="happy" value="happy">
+        <label for="happy">happy</label>
+        <input type="radio" name="me" id="excited" value="excited">
+        <label for="excited">excited</label>
+    </p>
+    <p>
+    <label for="time">time</label>
+    <select name="time" id="time">
+        <option value="afternoon">afternoon</option>
+        <option value="morning">morning</option>
+        <option value="evening">evening</option>
+    </select>
+    </p>
+    <p>
+    <input type="range" name="happy" id="happy" min="0" max="50">
+    <label for="happy">Happiness</label>
+    </p>
+    <p>
+    <label for="number">Enter a number</label>
+    <input type="number" name="number" id="number" min="0" max="100">
+    </p>
+    <p>
+        <label for="text">Any special requests?</label>
+        <br>
+        <textarea name="text" rows="10" cols="40" id="text"></textarea>
+    </p>
+
+        <button>Submit</button>
+    </form>
+
+
+
+</body>
+</html>
